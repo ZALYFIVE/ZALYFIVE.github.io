@@ -1,0 +1,348 @@
+/* 头部导航 */
+#top{
+	z-index         :999;/*一直在顶部*/
+	position        :fixed;
+	top             :0;
+	left            :0;
+	width           :100%;
+	height          : 60px;
+	background-color: #fff;
+}
+.top-left{
+	position : absolute;
+	width: 150px;
+	height: 50px;
+	top      : 50%;
+	transform: translateY(-50%);
+	left     : 5%;
+	background-image: url(../../static/img/logo.jpg);
+	background-size: cover;
+}
+.top-right{
+	width           : 120px;
+	height          : 50px;
+	position        : absolute;
+	top             : 50%;
+	transform       : translateY(-50%);
+	right           : 5%;
+}
+.denglu{
+	width           : 60px;
+	height          : 50px;
+	position        : absolute;
+	top: 0;
+	left: 0;
+}
+.zhuce{
+	width           : 60px;
+	height          : 50px;
+	position        : absolute;
+	top: 0;
+	left: 60px;
+	border-radius: 10px;
+	background-color: #2073C3;
+}
+.font1{
+	font-size: 25px;
+	color: #2073C3;
+}
+.font2{
+	font-size: 25px;
+	color: #fff;
+}
+/* 第一部分 */
+#middle1{
+	width: 100%;
+  	height: 600px;
+ 	position: relative;
+ 	background-image: url(../../static/img/middle1.jpg);
+ 	background-size: 100% 100%;
+}
+.middle1-font1{
+	width: 300px;
+  	height: 80px;
+ 	position: absolute;
+ 	top: 30%;
+ 	left: 15%;
+}
+.middle1-font2{
+	width: 600px;
+  	height: 40px;
+ 	position: absolute;
+ 	top: 38%;
+ 	left: 35%;
+}
+.middle1-font3{
+	width: 700px;
+  	height: 40px;
+ 	position: absolute;
+ 	top: 54%;
+ 	left: 40%;
+}
+.middle1-button{
+	width: 200px;
+  	height: 70px;
+ 	position: absolute;
+ 	top: 70%;
+ 	left: 75%;
+ 	background-color: #61BD50;
+ 	border-radius: 10px;
+}
+.font3{
+	font-size: 70px;
+}
+.font4{
+	font-size: 35px;
+}
+.font5{
+	font-size: 25px;
+	color: #fff;
+}
+/* 第二部分 */
+#middle2{
+	width: 70%;
+  	height: 600px;
+ 	position: relative;
+  	top:0px;
+ 	left: 15%;
+}
+.middle2-top{
+	width: 100%;
+  	height: 80px;
+  	position: absolute;
+  	top: 10px;
+  	left: 0;
+}
+.middle2-left{
+	width: 25%;
+  	height: 470px;
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+}
+.table{
+	width: 100%;
+  	height: 60px;
+  	position: relative;
+}
+.table-onclick{
+	width: 100%;
+  	height: 60px;
+  	position: relative;
+  	box-shadow:0px 0px  10px 5px #aaa;
+}
+.logo{
+	width: 40px;
+  	height: 40px;
+  	position: absolute;
+  	top: 50%;
+  	left:5%;
+  	transform: translateY(-50%);
+}
+.style-logo{
+	width: 100%;
+	height: 100%;
+}
+.text{
+	width: 65%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	right: 5%;
+	border-bottom: 1px solid #DADADA;
+}
+.font6{
+	font-size: 25px;
+	color:#747474;
+}
+.font7{
+	font-size: 25px;
+	color:#60B94F;
+}
+.middle2-mid{
+	width: 30%;
+  	height: 500px;
+  	position: absolute;
+  	bottom: 0;
+  	left: 33%;
+}
+.style-img{
+	width: 100%;
+	height: 100%;
+}
+.middle2-right{
+	width: 30%;
+	height: 500px;
+  	position: absolute;
+  	bottom: 0;
+  	left: 70%;
+  	background-color: #FFC540;
+  	border-radius: 20px;
+}
+.right-img{
+	width: 30px;
+  	height: 30px;
+  	position: absolute;
+  	top:30%;
+  	left: -30px;
+}
+.style-right{
+	width: 100%;
+	height: 100%;
+}
+.font8{
+	margin: 0 10px;
+	width     : 90%;
+	position  : absolute;
+	top       : 50%;
+	left      : 50%;
+	transform : translate(-50%,-50%);
+	text-align: left;
+	font-size: 20px;
+	color:#000; 
+}
+/* 第三部分 */
+#middle3{
+	width: 100%;
+  	height: 600px;
+ 	position: relative;
+  	top:30px;
+ 	left: 0;
+}
+.middle3-img{
+	width: 100%;
+	height: 100%;
+}
+/* 第四部分 */
+#middle4{
+	width: 100%;
+  	height: 600px;
+ 	position: relative;
+  	top:0px;
+ 	left: 0;
+}
+.middle4-img{
+	width: 100%;
+	height: 100%;
+}
+/* 第五部分 */
+#middle5{
+	width: 100%;
+  	height: 270px;
+  	position: relative;
+  	top:0px;
+ 	left: 0;
+}
+.middle5-logo{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top      : 15%;
+	left     : 10%;
+}
+.middle5-right{
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	top      : 23%;
+	left     : 60%;
+}
+.one{
+	width: 100px;
+	height: 250px;
+	position: absolute;
+	top      : 0;
+	left     : 0;
+}
+.two{
+	width: 100px;
+	height: 250px;
+	position: absolute;
+	top      : 0;
+	left     : 100px;
+}
+.three{
+	width: 100px;
+	height: 250px;
+	position: absolute;
+	top      : 0;
+	left     : 200px;
+}
+.four{
+	width: 100px;
+	height: 250px;
+	position: absolute;
+	top      : 0;
+	left     : 300px;
+}
+.five{
+	width: 100px;
+	height: 250px;
+	position: absolute;
+	top      : 0;
+	left     : 400px;
+}
+.title{
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+.font9{
+	font-size: 20px;
+	font-weight: 700;
+	width: 100%;
+	position   : absolute;
+	top        : 50%;
+	left       : 50%;
+	transform  : translate(-50%,-50%);
+}
+.font10{
+	font-size: 15px;
+	width: 100%;
+	position   : absolute;
+	top        : 50%;
+	left       : 50%;
+	transform  : translate(-50%,-50%);
+	color: #646464;
+}
+/* 底部导航 */
+#bottom{
+	width: 100%;
+  	height: 80px;
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: #555555;
+
+}
+.bottom-middle{
+	width: 70%;
+	height: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.bottom-text{
+	height: 10px;
+	font-size: 10px;
+	color: #fff;
+}
+.b-position1{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.b-position2{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translateY(-50%);
+}
+.b-position3{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
